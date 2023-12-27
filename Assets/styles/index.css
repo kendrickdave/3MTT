@@ -1,3 +1,9 @@
+:root {
+    --color-1 : gray;
+    --bg-color : #fafafa;
+    --text-color :red ;
+}
+
 html,body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
@@ -7,7 +13,13 @@ html,body{
 h1{
     font-size: 20px;
     text-decoration: underline;
-    padding: 0 10px;
+    padding: 0 ;
+    margin: 10px 0;
+}
+
+h2{
+    font-size: 30px;
+    color:rgb(70, 55, 55);
 }
 
 header{
@@ -21,16 +33,22 @@ nav a {
 }
 
 .nav, .main{
-    max-width: 1250px;
+    max-width: 1275px;
     margin: 0 auto;
    
 }
 
 .main {
     padding:0 20px;
+    max-width: 1200px;
+}
+
+.sub-section{
+color:var(--color-1)
 }
 
 #footer-p{
     text-align: center;
-    margin:30%;
+     color: var(--text-color);
 }
+
